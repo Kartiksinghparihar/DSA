@@ -11,6 +11,7 @@ public:
             digits[i] = 0;
         }
 
+        // If all digits were 9
         digits.insert(digits.begin(), 1);
         return digits;
     }
